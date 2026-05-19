@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARPI Foundation Pvt. Ltd. | Official Website</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        header {
+            background: #003366; /* professional deep blue */
+            color: #ffffff;
+            padding-top: 10px;
+            min-height: 70px;
+            border-bottom: #005fbc 3px solid;
+        }
+
+        header h1 {
+            float: left;
+            margin: 0;
+        }
+
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+
+        header ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        header li {
+            display: inline;
+            margin-left: 20px;
+        }
+
+        header a {
+            color: #ffffff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+
+        /* Background sections */
+
+        /* HOME SECTION */
+        #home {
+            background: 
+                linear-gradient(rgba(0, 51, 102, 0.7), rgba(0, 51, 102, 0.7)),
+                url('/arpifound/22.jpg') center/cover no-repeat;
+            color: #ffffff;
+        }
+
+        /* ABOUT SECTION */
+        #about {
+            background: 
+                linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)),
+                url('/arpifound/23.jpg') center/cover no-repeat;
+            color: #003366;
+        }
+
+        /* PROGRAMS SECTION */
+        #programs {
+            background: 
+                linear-gradient(rgba(0, 95, 188, 0.8), rgba(0, 95, 188, 0.8)),
+                url('/arpifound/welfare.jpg') center/cover no-repeat;
+            color: #ffffff;
+        }
+
+        section {
+            padding: 60px 0;
+        }
+
+        .section-bg {
+            /* for alternate background if needed */
+        }
+
+        .hero {
+            text-align: center;
+            padding: 100px 0;
+        }
+
+        .hero h2 {
+            font-size: 45px;
+            margin-bottom: 20px;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background: #ff5733; /* contrasting accent color */
+            color: #ffffff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 15px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+            transition: transform 0.2s ease, background 0.3s ease;
+        }
+
+        .cta-button:hover {
+            transform: translateY(-2px);
+            background: #e14e2b;
+        }
+
+        section h3 {
+            text-align: center;
+            font-size: 28px;
+            color: #003366;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+
+        footer {
+            background: #003366;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 20px;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            header h1, header nav {
+                float: none;
+                text-align: center;
+            }
+            header li {
+                display: block;
+                margin: 10px 0;
+            }
+            .container {
+                width: 95%;
+            }
+            .hero h2 {
+                font-size: 32px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>ARPI Foundation Pvt. Ltd.</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#programs">Our Programs</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container">
+                <h2>Welcome to ARPI Foundation</h2>
+                <p>Dedicated to making a positive impact in our communities. Learn more about our mission.</p>
+                <a href="#about" class="cta-button">Learn More</a>
+            </div>
+        </section>
+
+        <section id="about" class="section-bg">
+            <div class="container">
+                <h3>About Us</h3>
+                <p>ARPI Foundation Pvt. Ltd. is committed to social welfare, education, and sustainable development initiatives. We strive to empower communities through various projects.</p>
+            </div>
+        </section>
+
+        <section id="programs">
+            <div class="container">
+                <h3>Our Programs</h3>
+                <ul>
+                    <li>Education for All</li>
+                    <li>Healthcare Initiatives</li>
+                    <li>Environmental Conservation</li>
+                    <li>Women Empowerment</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="contact" class="section-bg">
+            <div class="container">
+                <h3>Contact Us</h3>
+                <p>Email: info@arpifoundation.com</p>
+                <p>Phone: +91 12345 67890</p>
+                <p>Address: [1/234 wall street, New York ]</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 ARPI Foundation Pvt. Ltd. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
